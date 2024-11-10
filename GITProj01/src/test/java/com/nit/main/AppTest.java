@@ -35,4 +35,13 @@ public class AppTest {
         int expected=app.sum(x, y);
         assertEquals(actual,expected);
     }
+    @Test
+    public void testWithZeroes() {
+        App app=new App();
+       int x=0;
+        int y=0;
+        int actual=0;
+        int expected=app.sum(x, y);
+        assertEquals(actual,expected);
+    }
 }
